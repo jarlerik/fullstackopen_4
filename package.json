@@ -1,0 +1,25 @@
+{
+  "name": "fullstackopen_4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jarl-Erik Malmström <jarl-erik.malmstrom@wunderdog.fi>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "watch": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.8",
+    "nodemon": "^1.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  }
+}
